@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+pandas
+requests
+beautifulsoup4
+python-dateutil
+pytz
+openai==2.6.1
+python-dotenv
+streamlit
+pandas
+python-dotenv
+beautifulsoup4
