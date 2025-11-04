@@ -11,7 +11,7 @@ from llm_utils import generate_plan_with_groq
 from import_utils import parse_sheet_input
 #from scheduler import schedule_tasks_greedy, reschedule_on_partial_completion
 from import_utils import parse_sheet_input
-
+st.set_page_config(page_title="AI Goal Planner", layout="wide")
 sheet_url = st.text_input("Paste Striver A2Z or other DSA sheet URL:")
 
 if sheet_url:
@@ -291,7 +291,7 @@ def create_goal_from_sheet(sheet_url: str, duration_range: str, daily_hours: flo
     return goal_obj
 
 # ---------- Streamlit UI ----------
-st.set_page_config(page_title="AI Goal Planner", layout="wide")
+
 st.title("🧭 AI Goal Planner — Autoplan & Import (Groq)")
 
 # Sidebar: create or import

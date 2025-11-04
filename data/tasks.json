@@ -3240,6 +3240,714 @@
           }
         ]
       }
+    },
+    {
+      "id": "goal_634bbf08",
+      "title": "i want to learn full stack web dev",
+      "description": "i want to learn full stack web dev",
+      "created_at": "2025-11-04",
+      "deadline": "2026-02-02",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_fbf74647",
+          "title": "Intro to HTML basics",
+          "description": "Learn tags, structure, and semantic HTML.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e6bff92c",
+          "title": "CSS fundamentals",
+          "description": "Selectors, box model, and basic styling.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e8c6b526",
+          "title": "Responsive design with Flexbox",
+          "description": "Create flexible layouts for different screen sizes.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9aed8628",
+          "title": "CSS Grid layout",
+          "description": "Build complex grid-based designs.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9fa3489b",
+          "title": "JavaScript ES6 fundamentals",
+          "description": "Variables, functions, arrow functions, and modules.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_079b08c0",
+          "title": "DOM manipulation",
+          "description": "Select and modify elements dynamically.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_30cb73cb",
+          "title": "Event handling",
+          "description": "Add interactivity with event listeners.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_82b913ea",
+          "title": "Fetch API & async/await",
+          "description": "Consume APIs asynchronously.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_17627e72",
+          "title": "Build a simple SPA with vanilla JS",
+          "description": "Apply learned skills to create a single-page app.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_28a423e5",
+          "title": "Introduction to Git & GitHub",
+          "description": "Version control basics and repository setup.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_6a4328f2",
+          "title": "Version control best practices",
+          "description": "Branching, commits, and pull requests.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_cd973830",
+          "title": "Node.js fundamentals",
+          "description": "Runtime environment, modules, and npm.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f8399852",
+          "title": "npm & package management",
+          "description": "Installing, updating, and managing dependencies.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9779da0b",
+          "title": "Express.js basics",
+          "description": "Set up a server and routing.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_429790d0",
+          "title": "RESTful API design",
+          "description": "Principles of designing clean APIs.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1438a3dc",
+          "title": "CRUD operations with Express",
+          "description": "Create, read, update, delete endpoints.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e2bbaac6",
+          "title": "MongoDB fundamentals",
+          "description": "NoSQL concepts and basic queries.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9dfcd6cf",
+          "title": "Mongoose schema design",
+          "description": "Define models and relationships.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_22a00dd2",
+          "title": "Integrate MongoDB with Express",
+          "description": "Connect database to API endpoints.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_b1d45b5c",
+          "title": "Authentication with JWT",
+          "description": "Implement token-based auth.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ccbf8631",
+          "title": "Password hashing with bcrypt",
+          "description": "Securely store user passwords.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e1d113f1",
+          "title": "Front-end framework intro (React)",
+          "description": "Set up a React project and understand JSX.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_6639af2e",
+          "title": "React component basics",
+          "description": "Create functional components.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e5db9b0f",
+          "title": "React state & props",
+          "description": "Manage data flow in components.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d16a9228",
+          "title": "React Router",
+          "description": "Add client-side routing.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_03ef9467",
+          "title": "React hooks (useState, useEffect)",
+          "description": "Handle state and side effects.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_115c3816",
+          "title": "Build a React CRUD app",
+          "description": "Integrate front-end with back-end API.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_6113c3b4",
+          "title": "Testing with Jest",
+          "description": "Write unit tests for JavaScript code.",
+          "estimated_hours": 2.5,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_faa63073",
+          "title": "End-to-end testing with Cypress",
+          "description": "Automate UI tests for the full stack app.",
+          "estimated_hours": 2.5,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_18d8c05a",
+          "title": "Docker fundamentals",
+          "description": "Containerize applications for consistency.",
+          "estimated_hours": 2.5,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_5799a651",
+          "title": "Containerize Node app",
+          "description": "Create Dockerfile and compose setup.",
+          "estimated_hours": 2.5,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a4a2040c",
+          "title": "CI/CD pipeline with GitHub Actions",
+          "description": "Automate build, test, and deployment workflows.",
+          "estimated_hours": 2.5,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_76460cda",
+          "title": "Deployment to Heroku",
+          "description": "Publish the back-end API to a cloud platform.",
+          "estimated_hours": 2.5,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f3724614",
+          "title": "Deployment to Netlify",
+          "description": "Publish the front-end React app.",
+          "estimated_hours": 2.5,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c725cc06",
+          "title": "Performance optimization",
+          "description": "Improve load times and resource usage.",
+          "estimated_hours": 2.5,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_83dd0fa4",
+          "title": "Accessibility best practices",
+          "description": "Make the app usable for all users.",
+          "estimated_hours": 2.5,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_33496e63",
+          "title": "Security best practices",
+          "description": "Protect against common web vulnerabilities.",
+          "estimated_hours": 2.5,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_0f741909",
+          "title": "Project planning & documentation",
+          "description": "Create README, API docs, and project roadmap.",
+          "estimated_hours": 2.5,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8b7730e8",
+          "title": "Portfolio website",
+          "description": "Showcase projects and skills.",
+          "estimated_hours": 2.5,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_70fce4d0",
+          "title": "Final project: full stack app",
+          "description": "Build and deploy a complete application from scratch.",
+          "estimated_hours": 2.5,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-04": [
+          {
+            "task_id": "task_fbf74647",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_e6bff92c",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-05": [
+          {
+            "task_id": "task_e6bff92c",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_e8c6b526",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_e8c6b526",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_9aed8628",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_9aed8628",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_9fa3489b",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_9fa3489b",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_079b08c0",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_30cb73cb",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_82b913ea",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_82b913ea",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_17627e72",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_17627e72",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_28a423e5",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_28a423e5",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_6a4328f2",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_6a4328f2",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_cd973830",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_f8399852",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_9779da0b",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_9779da0b",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_429790d0",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_429790d0",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_1438a3dc",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_1438a3dc",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_e2bbaac6",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_e2bbaac6",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_9dfcd6cf",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_22a00dd2",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_b1d45b5c",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_b1d45b5c",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_ccbf8631",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-21": [
+          {
+            "task_id": "task_ccbf8631",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_e1d113f1",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_e1d113f1",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_6639af2e",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-23": [
+          {
+            "task_id": "task_6639af2e",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_e5db9b0f",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-24": [
+          {
+            "task_id": "task_d16a9228",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_03ef9467",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-25": [
+          {
+            "task_id": "task_03ef9467",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_115c3816",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-26": [
+          {
+            "task_id": "task_115c3816",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_6113c3b4",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-27": [
+          {
+            "task_id": "task_6113c3b4",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_faa63073",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-28": [
+          {
+            "task_id": "task_faa63073",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_18d8c05a",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-29": [
+          {
+            "task_id": "task_5799a651",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_a4a2040c",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-30": [
+          {
+            "task_id": "task_a4a2040c",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_76460cda",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-01": [
+          {
+            "task_id": "task_76460cda",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_f3724614",
+            "hours": 1.5
+          }
+        ],
+        "2025-12-02": [
+          {
+            "task_id": "task_f3724614",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_c725cc06",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-03": [
+          {
+            "task_id": "task_c725cc06",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_83dd0fa4",
+            "hours": 2.5
+          }
+        ],
+        "2025-12-04": [
+          {
+            "task_id": "task_33496e63",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_0f741909",
+            "hours": 0.5
+          }
+        ],
+        "2025-12-05": [
+          {
+            "task_id": "task_0f741909",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_8b7730e8",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-06": [
+          {
+            "task_id": "task_8b7730e8",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_70fce4d0",
+            "hours": 1.5
+          }
+        ],
+        "2025-12-07": [
+          {
+            "task_id": "task_70fce4d0",
+            "hours": 1.0
+          }
+        ]
+      }
     }
   ]
 }
