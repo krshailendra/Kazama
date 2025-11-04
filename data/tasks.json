@@ -3948,6 +3948,2031 @@
           }
         ]
       }
+    },
+    {
+      "id": "goal_86a11d23",
+      "title": "i want to learn ml",
+      "description": "i want to learn ml",
+      "created_at": "2025-11-04",
+      "deadline": "2026-02-02",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_c1513cc1",
+          "title": "Set up Python environment",
+          "description": "Install Python, Jupyter, and essential libraries (NumPy, pandas, scikit-learn, matplotlib).",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_95fae0e1",
+          "title": "Python fundamentals refresher",
+          "description": "Review data types, control flow, functions, and object-oriented programming in Python.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ef3f1ec3",
+          "title": "Linear algebra basics",
+          "description": "Study vectors, matrices, matrix multiplication, eigenvalues, and eigenvectors.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1ad2e256",
+          "title": "Probability fundamentals",
+          "description": "Learn probability distributions, Bayes theorem, and basic statistics.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4ec62227",
+          "title": "Calculus for ML",
+          "description": "Understand derivatives, gradients, and their role in optimization.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_384e71cb",
+          "title": "Intro to machine learning concepts",
+          "description": "Explore supervised vs unsupervised learning, evaluation metrics, and the ML pipeline.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1faf94d4",
+          "title": "Linear regression",
+          "description": "Theory, implementation in scikit-learn, and evaluation techniques.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_912923d8",
+          "title": "Logistic regression",
+          "description": "Theory, implementation, and performance assessment.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9def072e",
+          "title": "Decision trees & random forests",
+          "description": "Build and tune tree-based models using scikit-learn.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4605e58e",
+          "title": "Support vector machines",
+          "description": "Understand kernels, training, and parameter tuning.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f42fe255",
+          "title": "k-Nearest Neighbors",
+          "description": "Implement KNN and evaluate its performance.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8bf3472c",
+          "title": "Clustering algorithms",
+          "description": "Study k-means and hierarchical clustering with practical examples.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1538785c",
+          "title": "Dimensionality reduction",
+          "description": "Learn PCA and its application to high-dimensional data.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ad541a64",
+          "title": "Neural network fundamentals",
+          "description": "Perceptron, multi-layer perceptron, backpropagation, and activation functions.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_aab3441f",
+          "title": "Build a neural network from scratch",
+          "description": "Implement a simple neural network in NumPy to solidify concepts.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9f8dcffa",
+          "title": "Deep learning frameworks",
+          "description": "Get acquainted with TensorFlow/Keras or PyTorch and basic model building.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_6709c138",
+          "title": "MNIST image classification project",
+          "description": "Create a CNN to classify handwritten digits and evaluate results.",
+          "estimated_hours": 4.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_dec0b823",
+          "title": "Spam detection text classification",
+          "description": "Build an NLP pipeline using TF-IDF and a logistic regression or Naïve Bayes model.",
+          "estimated_hours": 4.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d9c08bc9",
+          "title": "Model evaluation techniques",
+          "description": "Cross-validation, grid search, and hyperparameter tuning strategies.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a2d4310d",
+          "title": "Regularization & dropout",
+          "description": "Learn L1/L2 regularization, dropout, and techniques to combat overfitting.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_86d6d51d",
+          "title": "Reinforcement learning basics",
+          "description": "Understand Markov decision processes, Q-learning, and policy gradients.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8eeb1fad",
+          "title": "Model deployment",
+          "description": "Deploy a trained model using Flask and Docker for production readiness.",
+          "estimated_hours": 3.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e6453330",
+          "title": "Ethical AI & bias",
+          "description": "Explore fairness, accountability, and transparency in machine learning.",
+          "estimated_hours": 2.5,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a7c7c6c4",
+          "title": "Portfolio project consolidation",
+          "description": "Integrate learned techniques into a comprehensive project showcasing end-to-end ML.",
+          "estimated_hours": 4.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_0ed21cd2",
+          "title": "Summarize learning in a blog post",
+          "description": "Write a concise article or create a presentation summarizing key concepts and projects.",
+          "estimated_hours": 2.5,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-04": [
+          {
+            "task_id": "task_c1513cc1",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_95fae0e1",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-05": [
+          {
+            "task_id": "task_95fae0e1",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_ef3f1ec3",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_ef3f1ec3",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_1ad2e256",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_1ad2e256",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_4ec62227",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_4ec62227",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_384e71cb",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_384e71cb",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_1faf94d4",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_1faf94d4",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_912923d8",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_912923d8",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_9def072e",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_9def072e",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_4605e58e",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_4605e58e",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_f42fe255",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_f42fe255",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_8bf3472c",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_8bf3472c",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_1538785c",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_1538785c",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_ad541a64",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_ad541a64",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_aab3441f",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_aab3441f",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_9f8dcffa",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_9f8dcffa",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_6709c138",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_6709c138",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_dec0b823",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-21": [
+          {
+            "task_id": "task_dec0b823",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_d9c08bc9",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_d9c08bc9",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_a2d4310d",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-23": [
+          {
+            "task_id": "task_a2d4310d",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_86d6d51d",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-24": [
+          {
+            "task_id": "task_86d6d51d",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_8eeb1fad",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-25": [
+          {
+            "task_id": "task_8eeb1fad",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_e6453330",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-26": [
+          {
+            "task_id": "task_e6453330",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_a7c7c6c4",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-27": [
+          {
+            "task_id": "task_a7c7c6c4",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-28": [
+          {
+            "task_id": "task_0ed21cd2",
+            "hours": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "goal_f1a45e99",
+      "title": "i want to learn os",
+      "description": "i want to learn os",
+      "created_at": "2025-11-04",
+      "deadline": "2026-02-02",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_1a38c267",
+          "title": "OS Overview and History",
+          "description": "Read introductory chapters on operating system evolution and core concepts.",
+          "estimated_hours": 4.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2805601e",
+          "title": "Process Management Fundamentals",
+          "description": "Study process creation, termination, and scheduling basics.",
+          "estimated_hours": 4.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4f153e39",
+          "title": "Threading and Concurrency",
+          "description": "Learn about threads, synchronization primitives, and concurrency issues.",
+          "estimated_hours": 4.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_698a064a",
+          "title": "Memory Management Basics",
+          "description": "Explore physical memory, allocation, and deallocation techniques.",
+          "estimated_hours": 4.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a7d8fa61",
+          "title": "Virtual Memory and Paging",
+          "description": "Understand page tables, page faults, and virtual address translation.",
+          "estimated_hours": 4.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8addef77",
+          "title": "File System Concepts",
+          "description": "Study file organization, metadata, and file system design.",
+          "estimated_hours": 4.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f1fc37ac",
+          "title": "I/O Systems and Device Drivers",
+          "description": "Learn about I/O models, interrupts, and driver development.",
+          "estimated_hours": 4.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_fbc6ffd0",
+          "title": "Kernel Architecture and Design",
+          "description": "Examine monolithic, microkernel, and hybrid kernel structures.",
+          "estimated_hours": 4.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3df43664",
+          "title": "Security and Protection Mechanisms",
+          "description": "Study authentication, authorization, and protection rings.",
+          "estimated_hours": 4.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d580b8ad",
+          "title": "Virtualization and Hypervisors",
+          "description": "Understand virtualization concepts and hypervisor types.",
+          "estimated_hours": 4.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4dc65ee3",
+          "title": "Real-Time Operating Systems",
+          "description": "Learn about deterministic scheduling and real-time constraints.",
+          "estimated_hours": 4.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ee744112",
+          "title": "Distributed Operating Systems Basics",
+          "description": "Explore distributed resource management and networked OS concepts.",
+          "estimated_hours": 4.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_50369c4c",
+          "title": "Installing Linux on Virtual Machine",
+          "description": "Set up a Linux environment using VirtualBox or VMware.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a8b7b3ac",
+          "title": "Configuring Linux Kernel Parameters",
+          "description": "Tune kernel settings for performance and security.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9ec8568b",
+          "title": "Building a Simple Shell in C",
+          "description": "Implement a basic command-line shell to understand process control.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_99aa1e9c",
+          "title": "Implementing a Basic Process Scheduler",
+          "description": "Create a simple round-robin scheduler in C.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f8c51f43",
+          "title": "Implementing a Simple Memory Allocator",
+          "description": "Write a malloc/free implementation to grasp memory management.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_97ed13a7",
+          "title": "Implementing a Basic File System",
+          "description": "Design a minimal file system with inode and directory structures.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f53a078b",
+          "title": "Implementing an I/O Scheduler",
+          "description": "Develop a FIFO or elevator algorithm for disk I/O.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1febb264",
+          "title": "Implementing Virtual Memory Manager",
+          "description": "Simulate page replacement and swapping mechanisms.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3cf1747f",
+          "title": "Implementing a Security Module",
+          "description": "Add basic access control checks to your OS prototype.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e30b01b2",
+          "title": "Implementing a Distributed File System Prototype",
+          "description": "Create a simple client-server file sharing system.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_245dac84",
+          "title": "Writing OS Design Documentation",
+          "description": "Document architecture, design decisions, and API specifications.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f38f1e55",
+          "title": "Preparing OS Lab Report",
+          "description": "Compile experiment results, code listings, and analysis.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_229f03d1",
+          "title": "Reviewing OS Concepts and Notes",
+          "description": "Revisit key topics and clarify doubts.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_11c8b86b",
+          "title": "Taking OS Practice Exam",
+          "description": "Simulate exam conditions to assess readiness.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9f20a858",
+          "title": "Reflecting on Learning Progress",
+          "description": "Assess strengths, weaknesses, and next steps.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_71d1b1fc",
+          "title": "Updating Personal OS Study Log",
+          "description": "Record daily study hours, topics covered, and insights.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a6385def",
+          "title": "Exploring Advanced OS Topics",
+          "description": "Read about microkernels, unikernels, or OS research papers.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e9d14090",
+          "title": "Building a Minimal OS in Assembly",
+          "description": "Write a bootloader and simple kernel in assembly language.",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a94ae94a",
+          "title": "Debugging Kernel Modules",
+          "description": "Use gdb and kernel debugging tools to troubleshoot modules.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d4a234ec",
+          "title": "Performance Tuning Linux",
+          "description": "Profile and optimize kernel and user-space performance.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2322284e",
+          "title": "Security Hardening Linux",
+          "description": "Apply SELinux, AppArmor, and other hardening techniques.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f2f2e3ea",
+          "title": "Automating OS Build Process",
+          "description": "Create scripts to compile and package the OS automatically.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_6326a18a",
+          "title": "Final Project Presentation",
+          "description": "Prepare slides and demo to showcase the OS prototype.",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-04": [
+          {
+            "task_id": "task_1a38c267",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-05": [
+          {
+            "task_id": "task_1a38c267",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_2805601e",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_2805601e",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_4f153e39",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_4f153e39",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_698a064a",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_698a064a",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_a7d8fa61",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_a7d8fa61",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_8addef77",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_8addef77",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_f1fc37ac",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_f1fc37ac",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_fbc6ffd0",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_fbc6ffd0",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_3df43664",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_3df43664",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_d580b8ad",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_d580b8ad",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_4dc65ee3",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_4dc65ee3",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_ee744112",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_ee744112",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_50369c4c",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_a8b7b3ac",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-21": [
+          {
+            "task_id": "task_a8b7b3ac",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_9ec8568b",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_99aa1e9c",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_f8c51f43",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-23": [
+          {
+            "task_id": "task_f8c51f43",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_97ed13a7",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-24": [
+          {
+            "task_id": "task_f53a078b",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_1febb264",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-25": [
+          {
+            "task_id": "task_1febb264",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_3cf1747f",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-26": [
+          {
+            "task_id": "task_e30b01b2",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_245dac84",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-27": [
+          {
+            "task_id": "task_245dac84",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_f38f1e55",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-28": [
+          {
+            "task_id": "task_229f03d1",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_11c8b86b",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-29": [
+          {
+            "task_id": "task_11c8b86b",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_9f20a858",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-30": [
+          {
+            "task_id": "task_71d1b1fc",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_a6385def",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-01": [
+          {
+            "task_id": "task_a6385def",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_e9d14090",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-02": [
+          {
+            "task_id": "task_a94ae94a",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_d4a234ec",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-03": [
+          {
+            "task_id": "task_d4a234ec",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_2322284e",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-04": [
+          {
+            "task_id": "task_f2f2e3ea",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_6326a18a",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-05": [
+          {
+            "task_id": "task_6326a18a",
+            "hours": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "goal_a2269058",
+      "title": "i want to learn computer networks",
+      "description": "i want to learn computer networks",
+      "created_at": "2025-11-04",
+      "deadline": "2026-02-02",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_70e6e7b7",
+          "title": "Read Introduction to Computer Networks",
+          "description": "Overview of networking concepts and history.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8250e3f5",
+          "title": "Study OSI Model Layers",
+          "description": "Deep dive into the seven OSI layers and their functions.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_07986aa2",
+          "title": "Learn TCP/IP Basics",
+          "description": "Understand the core protocols of the Internet.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_7b764863",
+          "title": "Explore IP Addressing and Subnetting",
+          "description": "Practice calculating subnets and CIDR notation.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_b211753a",
+          "title": "Understand Ethernet and LAN Technologies",
+          "description": "Learn about cabling, switches, and LAN topologies.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f2d5434a",
+          "title": "Study Wireless Networking Fundamentals",
+          "description": "Cover Wi‑Fi standards, security, and deployment.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8e82010d",
+          "title": "Learn Routing Concepts and Protocols",
+          "description": "Explore static routing, OSPF, EIGRP, and BGP.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_b5d5c0f3",
+          "title": "Hands‑on Lab: Configure a Router",
+          "description": "Set up routing on a virtual or physical router.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_87be9a8c",
+          "title": "Study Switching and VLANs",
+          "description": "Learn VLAN configuration, trunking, and STP.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_054bfdba",
+          "title": "Hands‑on Lab: Configure a Switch",
+          "description": "Implement VLANs and port security on a switch.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_65c01070",
+          "title": "Learn Network Security Basics",
+          "description": "Cover firewalls, IDS/IPS, and basic security principles.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_138298d2",
+          "title": "Study Firewalls and VPNs",
+          "description": "Understand VPN types and firewall rule sets.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_325e8c28",
+          "title": "Hands‑on Lab: Set up a VPN",
+          "description": "Configure a site‑to‑site or remote access VPN.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2d973f01",
+          "title": "Explore Network Troubleshooting",
+          "description": "Learn troubleshooting methodology and common issues.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_cdfb16fd",
+          "title": "Study Network Monitoring Tools",
+          "description": "Familiarize with SNMP, NetFlow, and performance metrics.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c6b1db81",
+          "title": "Hands‑on Lab: Use Wireshark",
+          "description": "Capture and analyze traffic to identify problems.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e489e8b9",
+          "title": "Learn Cloud Networking Concepts",
+          "description": "Understand virtual networks, subnets, and routing in the cloud.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d77ca85d",
+          "title": "Study SDN and NFV",
+          "description": "Explore software‑defined networking and network functions virtualization.",
+          "estimated_hours": 2.5,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_88b8fefa",
+          "title": "Hands‑on Lab: Deploy a Virtual Network",
+          "description": "Create a virtual network using a cloud provider or virtualization platform.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3f858b24",
+          "title": "Study Network Design Principles",
+          "description": "Learn best practices for designing scalable, resilient networks.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_354e3ada",
+          "title": "Create a Network Design Project",
+          "description": "Design a network for a small business or campus.",
+          "estimated_hours": 4.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ef0dd3ef",
+          "title": "Review OSI and TCP/IP Models",
+          "description": "Quick recap and flashcards.",
+          "estimated_hours": 1.5,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_de343e52",
+          "title": "Practice Subnetting Exercises",
+          "description": "Solve multiple subnetting problems.",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d8e498d9",
+          "title": "Practice Routing Configurations",
+          "description": "Configure routing on a simulator or lab device.",
+          "estimated_hours": 2.5,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9fd2d1bb",
+          "title": "Practice Switching Configurations",
+          "description": "Set up VLANs, trunking, and port security.",
+          "estimated_hours": 2.5,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_50e47d86",
+          "title": "Practice Security Configurations",
+          "description": "Implement firewall rules and VPN settings.",
+          "estimated_hours": 2.5,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_7677a56b",
+          "title": "Practice Troubleshooting Scenarios",
+          "description": "Diagnose and resolve simulated network issues.",
+          "estimated_hours": 3.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_99757772",
+          "title": "Prepare Final Project Presentation",
+          "description": "Create slides and documentation for the network design.",
+          "estimated_hours": 2.0,
+          "priority": 6,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f1ccfeea",
+          "title": "Deliver Final Project Presentation",
+          "description": "Present the design to peers or mentors.",
+          "estimated_hours": 2.0,
+          "priority": 6,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9da50320",
+          "title": "Reflect and Plan Next Steps",
+          "description": "Assess learning, identify gaps, and set future goals.",
+          "estimated_hours": 1.0,
+          "priority": 7,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-04": [
+          {
+            "task_id": "task_70e6e7b7",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_8250e3f5",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-05": [
+          {
+            "task_id": "task_8250e3f5",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_07986aa2",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_7b764863",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_7b764863",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_b211753a",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_b211753a",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_f2d5434a",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_8e82010d",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_8e82010d",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_b5d5c0f3",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_b5d5c0f3",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_87be9a8c",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_87be9a8c",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_054bfdba",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_054bfdba",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_65c01070",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_138298d2",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_325e8c28",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_325e8c28",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_2d973f01",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_2d973f01",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_cdfb16fd",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_cdfb16fd",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_c6b1db81",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_c6b1db81",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_e489e8b9",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_d77ca85d",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_d77ca85d",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_88b8fefa",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_88b8fefa",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_3f858b24",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_3f858b24",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_354e3ada",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_354e3ada",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_ef0dd3ef",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-21": [
+          {
+            "task_id": "task_ef0dd3ef",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_de343e52",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_d8e498d9",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_d8e498d9",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_9fd2d1bb",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-23": [
+          {
+            "task_id": "task_9fd2d1bb",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_50e47d86",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-24": [
+          {
+            "task_id": "task_50e47d86",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_7677a56b",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-25": [
+          {
+            "task_id": "task_7677a56b",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_99757772",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-26": [
+          {
+            "task_id": "task_f1ccfeea",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_9da50320",
+            "hours": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "goal_ae844111",
+      "title": "i want to learn devops",
+      "description": "i want to learn devops",
+      "created_at": "2025-11-04",
+      "deadline": "2026-02-02",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_09b780fe",
+          "title": "Introduction to DevOps",
+          "description": "Learn the core principles, culture, and benefits of DevOps.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e479a641",
+          "title": "Linux Fundamentals",
+          "description": "Master essential Linux commands, file system navigation, and permissions.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_648fb7db",
+          "title": "Shell Scripting Basics",
+          "description": "Write simple Bash scripts to automate routine tasks.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2ceeb682",
+          "title": "Git Basics",
+          "description": "Understand Git workflow, commits, branches, and merges.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4ed4368c",
+          "title": "Git Branching Strategies",
+          "description": "Explore GitFlow, trunk-based development, and feature branching.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f3229890",
+          "title": "Continuous Integration Fundamentals",
+          "description": "Learn CI concepts, build pipelines, and automated testing.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f4b1730e",
+          "title": "Setting Up Jenkins",
+          "description": "Install Jenkins, configure jobs, and integrate with Git.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2e2c39d1",
+          "title": "Docker Fundamentals",
+          "description": "Create images, run containers, and understand Dockerfile syntax.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a7c6b298",
+          "title": "Docker Compose",
+          "description": "Define multi-container applications and orchestrate them locally.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a2f89f85",
+          "title": "Kubernetes Basics",
+          "description": "Understand cluster architecture, pods, services, and deployments.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_5f6fb7a0",
+          "title": "Deploying to Kubernetes",
+          "description": "Deploy a sample web app to a local Minikube cluster.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_0fe3a917",
+          "title": "Infrastructure as Code with Terraform",
+          "description": "Write Terraform scripts to provision cloud resources.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_271019f0",
+          "title": "AWS Basics",
+          "description": "Explore AWS services, IAM, and EC2 fundamentals.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_35651d8d",
+          "title": "AWS Networking",
+          "description": "Configure VPCs, subnets, security groups, and routing.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c10bbe52",
+          "title": "Monitoring with Prometheus",
+          "description": "Set up Prometheus to collect metrics from applications.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_afec05ad",
+          "title": "Alerting with Grafana",
+          "description": "Create dashboards and alert rules using Grafana.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_792b9d0a",
+          "title": "Logging with ELK Stack",
+          "description": "Implement Elasticsearch, Logstash, and Kibana for log aggregation.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3caa3093",
+          "title": "Secrets Management",
+          "description": "Learn best practices for storing and rotating secrets.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_34edd209",
+          "title": "GitLab CI Pipeline",
+          "description": "Build a CI/CD pipeline using GitLab CI for a sample project.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a8149750",
+          "title": "Blue/Green Deployment",
+          "description": "Implement a blue/green strategy to minimize downtime.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_7e8da4fd",
+          "title": "Disaster Recovery Planning",
+          "description": "Design backup, restore, and failover procedures.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_488b1777",
+          "title": "Performance Testing with JMeter",
+          "description": "Create load tests to evaluate application performance.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_21bf0dd2",
+          "title": "DevOps Metrics Dashboard",
+          "description": "Aggregate key metrics into a single dashboard for visibility.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_978ae3a7",
+          "title": "Capstone CI/CD Pipeline",
+          "description": "Build a complete CI/CD pipeline for a sample application, integrating all learned tools.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f01c43f5",
+          "title": "Review and Reflection",
+          "description": "Summarize lessons learned, identify gaps, and plan next steps.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-04": [
+          {
+            "task_id": "task_09b780fe",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_e479a641",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-05": [
+          {
+            "task_id": "task_e479a641",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_648fb7db",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_2ceeb682",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_4ed4368c",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_4ed4368c",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_f3229890",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_f4b1730e",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_2e2c39d1",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_2e2c39d1",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_a7c6b298",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_a2f89f85",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_5f6fb7a0",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_5f6fb7a0",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_0fe3a917",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_271019f0",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_35651d8d",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_35651d8d",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_c10bbe52",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_afec05ad",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_792b9d0a",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_792b9d0a",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_3caa3093",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_34edd209",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_a8149750",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_a8149750",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_7e8da4fd",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_488b1777",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_21bf0dd2",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_21bf0dd2",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_978ae3a7",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_978ae3a7",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_f01c43f5",
+            "hours": 2.0
+          }
+        ]
+      }
     }
   ]
 }
