@@ -25,7 +25,7 @@ def send_whatsapp_reminder(plan_summary):
         return False, "Twilio config missing"
     try:
         client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
-        body = f"🧭 New Plan Generated!\n{plan_summary}\n\nReply with 'Mark as Done' or 'Remind me Later'."
+        body = f"New Plan Generated!\n{plan_summary}\n\nReply with 'Mark as Done' or 'Remind me Later'."
         msg = client.messages.create(
             from_=TWILIO_WHATSAPP_NUMBER,
             to=TWILIO_WHATSAPP_DEST,
@@ -287,13 +287,13 @@ def reschedule_from_tomorrow(goal: Dict, capacity_per_day: float):
     save_data(data)
 
 # ---------- High-level operations (Autoplan + Import) ----------
-def create_goal_autoplan(goal_text: str, duration_range: str, daily_hours: float, mode: str) -> Dict:
+def create_goal_autoplan(goal_text: str, duration_range: str, daily_hours: float, mode: str, goal_title: str = None) -> Dict:
     days = months_range_to_days(duration_range)
     deadline_date = date.today() + timedelta(days=days)
     tasks_from_llm = generate_plan_with_groq(goal=goal_text, deadline=str(deadline_date), daily_hours=float(daily_hours), mode=mode)
     goal_obj = {
         "id": gen_id("goal"),
-        "title": goal_text[:140],
+        "title": goal_title if goal_title else goal_text[:140],
         "description": goal_text,
         "created_at": iso(date.today()),
         "deadline": iso(deadline_date),
@@ -353,8 +353,30 @@ def create_goal_from_sheet(sheet_url: str, duration_range: str, daily_hours: flo
     save_data(data)
     return goal_obj
 
+# New WhatsApp progress update helper
+
+def send_whatsapp_progress_update(task_title, hours_done, reschedule_date):
+    if not (TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN and TWILIO_WHATSAPP_DEST):
+        return False, "Twilio config missing"
+    try:
+        client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+        body = (
+            f"Progress Saved!\n"
+            f"Task: {task_title}\n"
+            f"Hours done: {hours_done}\n"
+            f"Schedule has been rescheduled from {reschedule_date}. Keep going!"
+        )
+        msg = client.messages.create(
+            from_=TWILIO_WHATSAPP_NUMBER,
+            to=TWILIO_WHATSAPP_DEST,
+            body=body
+        )
+        return True, "WhatsApp progress update sent"
+    except Exception as e:
+        return False, str(e)
+
 # ---------- Streamlit UI ----------
-st.markdown('<div class="heading">🧭 AI Goal Planner — Autoplan & Import (GROQ)</div>', unsafe_allow_html=True)
+st.markdown('<div class="heading">AI Goal Planner — Autoplan & Import !</div>', unsafe_allow_html=True)
 st.markdown('<div class="muted">Mobile-first demo UI — dark mode. Use sidebar to create or import. Toggle advanced features to hide unfinished items.</div>', unsafe_allow_html=True)
 st.write("")  # small spacer
 
@@ -367,6 +389,7 @@ with st.sidebar:
     hide_unfinished = not show_advanced  # if checkbox unchecked, we hide advanced / unfinished
 
     if mode == "Autoplan (LLM)":
+        goal_title = st.text_input("Goal Title", "")
         goal_text = st.text_area("Describe your goal (e.g. 'learn DSA and solve 200 problems')", height=120)
         duration_choice = st.selectbox("Duration range", ["1 month", "2 months", "2-3 months", "3 months", "4 months"], index=2)
         daily_hours_input = st.number_input("Daily available hours", value=3.0, min_value=0.5, max_value=16.0, step=0.5)
@@ -384,12 +407,14 @@ goals = data.get("goals", [])
 
 # Handle create actions
 if mode == "Autoplan (LLM)" and generate_btn:
-    if not goal_text or len(goal_text.strip()) < 6:
+    if not goal_title.strip():
+        st.error("Please enter a goal title.")
+    elif not goal_text or len(goal_text.strip()) < 6:
         st.error("Please write a clear goal (at least a few words).")
     else:
         with st.spinner("Asking the LLM to generate a plan..."):
             try:
-                g = create_goal_autoplan(goal_text.strip(), duration_choice, daily_hours_input, plan_style)
+                g = create_goal_autoplan(goal_text.strip(), duration_choice, daily_hours_input, plan_style, goal_title.strip())
                 st.success(f"Created goal: {g['title']} with {len(g['tasks'])} tasks. Deadline approx {g['deadline']}")
                 data = load_data()
                 goals = data.get("goals", [])
@@ -424,9 +449,37 @@ if not goals:
 else:
     goal_map = {g["title"]: g for g in goals}
     selected_title = st.selectbox("Select goal", ["(choose)"] + [g["title"] for g in goals])
+
+    # --- Dashboard summary with metrics and bar chart ---
+    if selected_title == "(choose)":
+        import numpy as np
+        import pandas as pd
+        total_tasks = sum(len(g["tasks"]) for g in goals)
+        completed_tasks = sum(
+            sum(1 for t in g["tasks"] if t.get("status") == "done" or (t.get("hours_done",0.0) >= t["estimated_hours"])) for g in goals
+        )
+        pct_complete = int((completed_tasks / total_tasks * 100) if total_tasks else 0)
+        cols = st.columns(3)
+        with cols[0]:
+            st.metric("Total Tasks", total_tasks)
+        with cols[1]:
+            st.metric("Completed Tasks", completed_tasks)
+        with cols[2]:
+            st.metric("% Completed", f"{pct_complete}%")
+        # Per-goal % completion
+        goal_titles = [g["title"][:13] + ("..." if len(g["title"])>13 else "") for g in goals]
+        pct_complete_per_goal = [
+            (sum(1 for t in g["tasks"] if t.get("status") == "done" or (t.get("hours_done",0.0) >= t["estimated_hours"])) / len(g["tasks"]) * 100) if len(g["tasks"]) else 0
+            for g in goals
+        ]
+        comp_df = pd.DataFrame({"% Completed": pct_complete_per_goal}, index=goal_titles)
+        st.bar_chart(comp_df, use_container_width=True, height=220)
+        st.markdown("<div style='text-align:center;font-size:0.93rem;padding-bottom:3px;'>% Completion per Goal</div>", unsafe_allow_html=True)
+        st.write("")
+
     if selected_title != "(choose)":
         goal = goal_map[selected_title]
-        st.markdown(f'<div class="card"><div style="display:flex;justify-content:space-between;align-items:center;"><div><strong style="font-size:1.05rem">{goal["title"]}</strong><div class="muted">Created: {goal.get("created_at","-")} — Deadline: {goal.get("deadline","-")}</div></div><div class="pill">{goal.get("mode","")}</div></div><div style="margin-top:10px;">{goal.get("description","")}</div></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="card"><div style="display:flex;justify-content:space-between;align-items:center;"><div><strong style="font-size:1.05rem">{goal["title"]}</strong><div class="muted">Created: {goal.get("created_at","-")} — Deadline: {goal.get("deadline","-")}</div></div><div class="pill">{goal.get("mode","")}</div></div><div style="margin-top:10px;"></div></div>', unsafe_allow_html=True)
 
         # summary progress
         total_est = sum(t["estimated_hours"] for t in goal["tasks"])
@@ -485,6 +538,9 @@ else:
                             reschedule_from_tomorrow(goal_ref, daily_hours_input)
                             save_data(data)
                             st.success("Progress saved and schedule rescheduled from tomorrow.")
+                            # --- Send WhatsApp progress update ---
+                            send_whatsapp_progress_update(t['title'], float(add_done), (date.today() + timedelta(days=1)).isoformat())
+                            # --------------------------------------
                             data = load_data()
                             goals = data["goals"]
                             goal = next((g for g in goals if g["id"] == goal["id"]), goal)

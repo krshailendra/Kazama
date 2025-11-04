@@ -95,7 +95,7 @@
           "description": "Min-heap and max-heap implementation and heap sort.",
           "estimated_hours": 2.0,
           "priority": 1,
-          "status": "planned",
+          "status": "in_progress",
           "hours_done": 0.0
         },
         {
@@ -325,14 +325,20 @@
         }
       ],
       "assignments": {
-        "2025-11-03": [
+        "2025-11-06": [
           {
             "task_id": "task_4cbbdc24",
-            "hours": 1.0
+            "hours": 2.0
           },
           {
             "task_id": "task_4879e6cb",
-            "hours": 2.0
+            "hours": 1.0
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_4879e6cb",
+            "hours": 1.0
           },
           {
             "task_id": "task_41ddad4c",
@@ -340,75 +346,119 @@
           },
           {
             "task_id": "task_f00866d2",
-            "hours": 2.0
-          },
-          {
-            "task_id": "task_0f2d6ab7",
             "hours": 0.5
           }
         ],
-        "2025-11-04": [
+        "2025-11-08": [
+          {
+            "task_id": "task_f00866d2",
+            "hours": 1.5
+          },
           {
             "task_id": "task_0f2d6ab7",
             "hours": 1.5
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_0f2d6ab7",
+            "hours": 0.5
           },
           {
             "task_id": "task_2b5ec1a3",
-            "hours": 1.5
+            "hours": 2.0
           },
           {
             "task_id": "task_e80b7444",
-            "hours": 2.0
+            "hours": 0.5
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_e80b7444",
+            "hours": 1.5
           },
           {
             "task_id": "task_256cac58",
-            "hours": 2.0
+            "hours": 1.5
           }
         ],
-        "2025-11-05": [
+        "2025-11-11": [
+          {
+            "task_id": "task_256cac58",
+            "hours": 0.5
+          },
           {
             "task_id": "task_044a4f5e",
             "hours": 2.0
           },
           {
             "task_id": "task_aafa3563",
-            "hours": 2.0
+            "hours": 0.5
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_aafa3563",
+            "hours": 1.5
           },
           {
             "task_id": "task_4f8a6fd7",
-            "hours": 2.0
+            "hours": 1.5
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_4f8a6fd7",
+            "hours": 0.5
           },
           {
             "task_id": "task_1e4f9751",
-            "hours": 1.0
-          }
-        ],
-        "2025-11-06": [
-          {
-            "task_id": "task_1e4f9751",
-            "hours": 1.0
+            "hours": 2.0
           },
           {
             "task_id": "task_96c815b3",
-            "hours": 2.0
+            "hours": 0.5
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_96c815b3",
+            "hours": 1.5
           },
           {
             "task_id": "task_e7ce7379",
-            "hours": 2.0
+            "hours": 1.5
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_e7ce7379",
+            "hours": 0.5
           },
           {
             "task_id": "task_2eb2e293",
             "hours": 2.0
-          }
-        ],
-        "2025-11-07": [
+          },
           {
             "task_id": "task_7879a538",
-            "hours": 2.0
+            "hours": 0.5
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_7879a538",
+            "hours": 1.5
           },
           {
             "task_id": "task_6c356727",
-            "hours": 2.0
+            "hours": 1.5
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_6c356727",
+            "hours": 0.5
           },
           {
             "task_id": "task_5b2997ed",
@@ -416,88 +466,114 @@
           },
           {
             "task_id": "task_f0635b61",
-            "hours": 1.0
+            "hours": 0.5
           }
         ],
-        "2025-11-08": [
+        "2025-11-18": [
           {
             "task_id": "task_f0635b61",
-            "hours": 1.0
+            "hours": 1.5
           },
           {
             "task_id": "task_240f7d0e",
-            "hours": 2.0
-          },
+            "hours": 1.5
+          }
+        ],
+        "2025-11-19": [
           {
             "task_id": "task_65f85918",
-            "hours": 2.0
+            "hours": 1.5
           },
           {
             "task_id": "task_3598ba75",
-            "hours": 2.0
+            "hours": 1.5
           }
         ],
-        "2025-11-09": [
+        "2025-11-20": [
+          {
+            "task_id": "task_3598ba75",
+            "hours": 0.5
+          },
           {
             "task_id": "task_34c9cfdf",
-            "hours": 1.5
+            "hours": 2.0
           },
+          {
+            "task_id": "task_8b113288",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-21": [
           {
             "task_id": "task_8b113288",
             "hours": 1.5
           },
           {
             "task_id": "task_19229821",
-            "hours": 2.0
+            "hours": 1.5
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_19229821",
+            "hours": 2.5
           },
           {
             "task_id": "task_941dbd85",
-            "hours": 2.0
+            "hours": 0.5
           }
         ],
-        "2025-11-10": [
+        "2025-11-23": [
+          {
+            "task_id": "task_941dbd85",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-24": [
+          {
+            "task_id": "task_941dbd85",
+            "hours": 0.5
+          },
           {
             "task_id": "task_a963132c",
             "hours": 2.0
           },
           {
             "task_id": "task_f50ec165",
-            "hours": 4.0
-          },
-          {
-            "task_id": "task_d14402a3",
-            "hours": 1.0
+            "hours": 0.5
           }
         ],
-        "2025-11-11": [
+        "2025-11-25": [
           {
-            "task_id": "task_d14402a3",
-            "hours": 3.0
-          },
-          {
-            "task_id": "task_6ea50ff6",
-            "hours": 2.0
-          },
-          {
-            "task_id": "task_99dce908",
-            "hours": 2.0
-          }
-        ],
-        "2025-11-12": [
-          {
-            "task_id": "task_a9d65c69",
-            "hours": 2.0
-          },
-          {
-            "task_id": "task_0b002090",
+            "task_id": "task_f50ec165",
             "hours": 1.5
           },
           {
-            "task_id": "task_b262dea9",
-            "hours": 2.0
+            "task_id": "task_d14402a3",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-26": [
+          {
+            "task_id": "task_d14402a3",
+            "hours": 0.5
           },
           {
-            "task_id": "task_fe24488a",
+            "task_id": "task_6ea50ff6",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_99dce908",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-27": [
+          {
+            "task_id": "task_99dce908",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_a9d65c69",
             "hours": 1.0
           }
         ]
@@ -8274,6 +8350,1732 @@
         "2026-01-10": [
           {
             "task_id": "task_92980134",
+            "hours": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "goal_ad5fcd7d",
+      "title": "i want to  learn fluid mechanics",
+      "description": "i want to  learn fluid mechanics",
+      "created_at": "2025-11-05",
+      "deadline": "2026-02-03",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_483c3750",
+          "title": "Read Chapter 1: Introduction to Fluid Mechanics",
+          "description": "Cover basic concepts, definitions, and the importance of fluid mechanics in engineering.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a477c1ea",
+          "title": "Watch introductory video series on fluid mechanics fundamentals",
+          "description": "Watch 3 short videos (~30 min each) that explain key principles.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d33debec",
+          "title": "Summarize key points from Chapter 1",
+          "description": "Write a concise summary and create flashcards for main concepts.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_0ad248eb",
+          "title": "Read Chapter 2: Fluid Properties",
+          "description": "Study viscosity, density, compressibility, and temperature effects.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_b0d58c37",
+          "title": "Solve Chapter 2 practice problems",
+          "description": "Complete 10 problems covering fluid properties calculations.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_fb4abcce",
+          "title": "Read Chapter 3: Fluid Statics",
+          "description": "Learn about pressure, buoyancy, and hydrostatic forces.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_06905f4c",
+          "title": "Create concept map for fluid statics",
+          "description": "Visualize relationships between pressure, depth, and density.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f73ef79a",
+          "title": "Read Chapter 4: Fluid Dynamics Basics",
+          "description": "Understand flow, velocity, and continuity equation.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_bed6f1b0",
+          "title": "Solve continuity equation problems",
+          "description": "Work through 8 problems to reinforce the concept.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_dea95b93",
+          "title": "Watch lecture on Bernoulli’s Equation",
+          "description": "Watch a 45-minute lecture and take notes.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_dca1322a",
+          "title": "Derive Bernoulli’s Equation step-by-step",
+          "description": "Write out the derivation and identify assumptions.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_039bc45e",
+          "title": "Read Chapter 5: Boundary Layer Theory",
+          "description": "Explore laminar vs turbulent flow and boundary layer development.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_6663cdd6",
+          "title": "Solve boundary layer problems",
+          "description": "Complete 6 problems focusing on velocity profiles.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a05847ba",
+          "title": "Read Chapter 6: Dimensional Analysis",
+          "description": "Learn Buckingham Pi theorem and its applications.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ed8ec856",
+          "title": "Apply dimensional analysis to fluid problems",
+          "description": "Work through 5 example problems.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_844d12e2",
+          "title": "Read Chapter 7: Flow in Pipes",
+          "description": "Study laminar, turbulent flow, Reynolds number, and pressure drop.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8b0853c0",
+          "title": "Calculate pressure drop in pipe systems",
+          "description": "Solve 8 problems using Darcy-Weisbach and Hazen-Williams equations.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3923dbed",
+          "title": "Read Chapter 8: Fluid Machines",
+          "description": "Understand pumps, turbines, and compressors.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1e004674",
+          "title": "Analyze pump performance curves",
+          "description": "Interpret head-capacity curves and efficiency maps.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_94a26084",
+          "title": "Read Chapter 9: Computational Fluid Dynamics (CFD) Basics",
+          "description": "Learn about discretization, mesh generation, and solver types.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4c9ce798",
+          "title": "Set up a simple CFD simulation in a free software",
+          "description": "Create a 2D flow around a cylinder and run the simulation.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_b57fe911",
+          "title": "Read Chapter 10: Advanced Topics in Fluid Mechanics",
+          "description": "Explore topics like multiphase flow, free surface flow, and turbulence modeling.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_b9f4138c",
+          "title": "Summarize advanced topics in a study guide",
+          "description": "Create a concise guide for quick review.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3a37e46c",
+          "title": "Review all key equations and concepts",
+          "description": "Create a master cheat sheet with all important formulas.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_edc23a7b",
+          "title": "Take a practice quiz on fluid mechanics fundamentals",
+          "description": "Assess understanding of Chapters 1-4.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_39dfb7e5",
+          "title": "Take a practice quiz on fluid dynamics and machines",
+          "description": "Assess understanding of Chapters 5-8.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8cfc1580",
+          "title": "Take a practice quiz on advanced topics and CFD",
+          "description": "Assess understanding of Chapters 9-10.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1d80097e",
+          "title": "Review quiz results and identify weak areas",
+          "description": "Focus on topics with lowest scores.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_41d7238b",
+          "title": "Revisit weak topics with targeted reading",
+          "description": "Read supplementary materials and solve additional problems.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3e07f9ae",
+          "title": "Create a concept map linking all chapters",
+          "description": "Visualize how concepts interrelate across the subject.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_44c3d736",
+          "title": "Teach a peer or tutor a fluid mechanics concept",
+          "description": "Explain a topic to reinforce understanding.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f11e1518",
+          "title": "Write a short essay on the real-world applications of fluid mechanics",
+          "description": "Discuss at least three engineering fields.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d4ae9ac8",
+          "title": "Prepare a presentation summarizing the entire course",
+          "description": "Create slides covering key concepts and personal insights.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_6ba5cac2",
+          "title": "Deliver the presentation to a study group",
+          "description": "Present and answer questions to solidify knowledge.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d64ea1a5",
+          "title": "Reflect on learning process and set future goals",
+          "description": "Write a reflection on what worked and what could improve.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-05": [
+          {
+            "task_id": "task_483c3750",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_a477c1ea",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_a477c1ea",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_d33debec",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_d33debec",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_0ad248eb",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_0ad248eb",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_b0d58c37",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_b0d58c37",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_fb4abcce",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_06905f4c",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_f73ef79a",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_f73ef79a",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_bed6f1b0",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_bed6f1b0",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_dea95b93",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_dea95b93",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_dca1322a",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_dca1322a",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_039bc45e",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_6663cdd6",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_a05847ba",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_a05847ba",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_ed8ec856",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_ed8ec856",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_844d12e2",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_844d12e2",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_8b0853c0",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_8b0853c0",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_3923dbed",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_1e004674",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_94a26084",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-21": [
+          {
+            "task_id": "task_94a26084",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_4c9ce798",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_4c9ce798",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_b57fe911",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-23": [
+          {
+            "task_id": "task_b57fe911",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_b9f4138c",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-24": [
+          {
+            "task_id": "task_b9f4138c",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_3a37e46c",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-25": [
+          {
+            "task_id": "task_edc23a7b",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_39dfb7e5",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-26": [
+          {
+            "task_id": "task_39dfb7e5",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_8cfc1580",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-27": [
+          {
+            "task_id": "task_8cfc1580",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_1d80097e",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-28": [
+          {
+            "task_id": "task_1d80097e",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_41d7238b",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-29": [
+          {
+            "task_id": "task_41d7238b",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_3e07f9ae",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-30": [
+          {
+            "task_id": "task_44c3d736",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_f11e1518",
+            "hours": 0.5
+          }
+        ],
+        "2025-12-01": [
+          {
+            "task_id": "task_f11e1518",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_d4ae9ac8",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-02": [
+          {
+            "task_id": "task_d4ae9ac8",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_6ba5cac2",
+            "hours": 1.5
+          }
+        ],
+        "2025-12-03": [
+          {
+            "task_id": "task_6ba5cac2",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_d64ea1a5",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-04": [
+          {
+            "task_id": "task_d64ea1a5",
+            "hours": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "goal_24e173a0",
+      "title": "i want to  learn fluid mechanics",
+      "description": "i want to  learn fluid mechanics",
+      "created_at": "2025-11-05",
+      "deadline": "2026-02-03",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_0c0df3a7",
+          "title": "Read Chapter 1: Introduction to Fluid Mechanics",
+          "description": "Familiarize with basic concepts and terminology.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "in_progress",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d6748950",
+          "title": "Watch lecture on Continuum Hypothesis",
+          "description": "Understand the assumptions behind treating fluids as continuous media.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_0e81fb21",
+          "title": "Solve problems on Continuum Hypothesis",
+          "description": "Apply the concept to simple scenarios.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a80e8603",
+          "title": "Read Chapter 2: Conservation Laws",
+          "description": "Study mass, momentum, and energy conservation.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c77b2ace",
+          "title": "Derive Continuity Equation",
+          "description": "Work through the derivation step-by-step.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_10f55f10",
+          "title": "Derive Momentum Equation",
+          "description": "Derive the Navier-Stokes momentum equation.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_353f2d4c",
+          "title": "Read Chapter 3: Dimensional Analysis",
+          "description": "Learn Buckingham Pi theorem and its applications.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_71b65819",
+          "title": "Apply Buckingham Pi theorem to flow problems",
+          "description": "Solve example problems using dimensional analysis.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_35954df6",
+          "title": "Read Chapter 4: Fluid Statics",
+          "description": "Study pressure distribution in static fluids.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_88c6fbb5",
+          "title": "Calculate pressure distribution in a pipe",
+          "description": "Apply hydrostatic principles to a pipe scenario.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_5f2e4466",
+          "title": "Read Chapter 5: Fluid Dynamics Basics",
+          "description": "Explore fundamental fluid motion concepts.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_604ac989",
+          "title": "Derive Bernoulli Equation",
+          "description": "Derive the equation from conservation principles.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e3f44d1d",
+          "title": "Solve Bernoulli problems",
+          "description": "Apply Bernoulli's equation to practical problems.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_cfd797d5",
+          "title": "Read Chapter 6: Navier-Stokes Equations",
+          "description": "Deep dive into the governing equations of fluid flow.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2cde870d",
+          "title": "Linearize Navier-Stokes for laminar flow",
+          "description": "Simplify equations for low Reynolds number flows.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ff9848c4",
+          "title": "Read Chapter 7: Laminar Flow in Pipes",
+          "description": "Study Poiseuille flow and velocity profiles.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_86095b78",
+          "title": "Solve Poiseuille flow problem",
+          "description": "Calculate pressure drop and velocity distribution.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_94d2a86d",
+          "title": "Read Chapter 8: Boundary Layer Theory",
+          "description": "Learn about boundary layer formation and scaling.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1f8fcf5a",
+          "title": "Derive Blasius solution",
+          "description": "Work through the classic boundary layer solution.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_b71c6144",
+          "title": "Read Chapter 9: Turbulence Basics",
+          "description": "Understand turbulence onset and characteristics.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_baf49d54",
+          "title": "Study Reynolds number and transition",
+          "description": "Analyze how flow transitions from laminar to turbulent.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f38c83c7",
+          "title": "Read Chapter 10: Flow over Airfoils",
+          "description": "Explore lift, drag, and thin airfoil theory.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4bcaac9c",
+          "title": "Compute lift and drag using thin airfoil theory",
+          "description": "Apply theory to calculate aerodynamic forces.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_7f576786",
+          "title": "Read Chapter 11: Computational Fluid Dynamics",
+          "description": "Learn basics of CFD and numerical methods.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_03ae55ea",
+          "title": "Set up simple CFD simulation in OpenFOAM",
+          "description": "Create a mesh and define boundary conditions.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_654a5f42",
+          "title": "Run CFD simulation of flow over cylinder",
+          "description": "Execute simulation and monitor convergence.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_26ba71f4",
+          "title": "Analyze CFD results and compare with theory",
+          "description": "Interpret velocity fields and pressure distributions.",
+          "estimated_hours": 2.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_309c1e49",
+          "title": "Prepare summary notes for each chapter",
+          "description": "Condense key concepts into concise notes.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1e28ae83",
+          "title": "Take practice quiz on fluid mechanics",
+          "description": "Test understanding of core topics.",
+          "estimated_hours": 1.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_14d4994f",
+          "title": "Review all notes and solve comprehensive problems",
+          "description": "Integrate knowledge across chapters.",
+          "estimated_hours": 4.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_5c066746",
+          "title": "Simulate a real-world problem (e.g., pipe network) using CFD",
+          "description": "Apply CFD skills to a practical engineering scenario.",
+          "estimated_hours": 4.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_0bbae9a3",
+          "title": "Write a short report on CFD simulation",
+          "description": "Document methodology, results, and conclusions.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_22202ebc",
+          "title": "Prepare for final exam: outline key concepts",
+          "description": "Create a study guide for exam preparation.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2f309f4a",
+          "title": "Take mock exam",
+          "description": "Simulate exam conditions to assess readiness.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_26de34f8",
+          "title": "Final review and rest",
+          "description": "Light review and relaxation before the deadline.",
+          "estimated_hours": 1.5,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-06": [
+          {
+            "task_id": "task_0c0df3a7",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_d6748950",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_d6748950",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_0e81fb21",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_a80e8603",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_a80e8603",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_c77b2ace",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_c77b2ace",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_10f55f10",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_353f2d4c",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_353f2d4c",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_71b65819",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_71b65819",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_35954df6",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_88c6fbb5",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_88c6fbb5",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_5f2e4466",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_5f2e4466",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_604ac989",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_e3f44d1d",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_e3f44d1d",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_cfd797d5",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_cfd797d5",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_2cde870d",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_ff9848c4",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_86095b78",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_86095b78",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_94d2a86d",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_94d2a86d",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_1f8fcf5a",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_1f8fcf5a",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_b71c6144",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_baf49d54",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_f38c83c7",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-21": [
+          {
+            "task_id": "task_f38c83c7",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_4bcaac9c",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_4bcaac9c",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_7f576786",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-23": [
+          {
+            "task_id": "task_7f576786",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_03ae55ea",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-24": [
+          {
+            "task_id": "task_03ae55ea",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_654a5f42",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-25": [
+          {
+            "task_id": "task_654a5f42",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_26ba71f4",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-26": [
+          {
+            "task_id": "task_309c1e49",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-27": [
+          {
+            "task_id": "task_1e28ae83",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_14d4994f",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-28": [
+          {
+            "task_id": "task_14d4994f",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_5c066746",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-29": [
+          {
+            "task_id": "task_5c066746",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-30": [
+          {
+            "task_id": "task_5c066746",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_0bbae9a3",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_22202ebc",
+            "hours": 0.5
+          }
+        ],
+        "2025-12-01": [
+          {
+            "task_id": "task_22202ebc",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_2f309f4a",
+            "hours": 1.5
+          }
+        ],
+        "2025-12-02": [
+          {
+            "task_id": "task_2f309f4a",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_26de34f8",
+            "hours": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "goal_a42d0e7e",
+      "title": "genetics",
+      "description": "college level genetics",
+      "created_at": "2025-11-05",
+      "deadline": "2026-02-03",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_827663f9",
+          "title": "Read Chapter 1: Introduction to Genetics",
+          "description": "Overview of genetics history and key concepts.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8ddbd698",
+          "title": "Watch lecture on DNA structure",
+          "description": "Visual explanation of double helix and base pairing.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_af0de190",
+          "title": "Practice DNA replication problems",
+          "description": "Solve exercises on leading/lagging strands and proofreading.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_843aec12",
+          "title": "Read Chapter 2: DNA Replication",
+          "description": "Detailed mechanisms of replication enzymes.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_6534ac6d",
+          "title": "Watch lecture on transcription",
+          "description": "Step-by-step transcription process and RNA polymerase.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_96ef03ab",
+          "title": "Practice transcription exercises",
+          "description": "Transcribe DNA to RNA and identify promoter elements.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_44747589",
+          "title": "Read Chapter 3: Transcription",
+          "description": "In-depth look at transcription regulation.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ac75dee3",
+          "title": "Watch lecture on translation",
+          "description": "From mRNA to protein synthesis and ribosome function.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e93b33a8",
+          "title": "Practice translation problems",
+          "description": "Translate codons to amino acids and identify start/stop signals.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3fdd8071",
+          "title": "Read Chapter 4: Translation",
+          "description": "Mechanisms of tRNA, ribosomal subunits, and post‑translational modifications.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_577c5b31",
+          "title": "Review gene expression regulation",
+          "description": "Key regulatory mechanisms in prokaryotes and eukaryotes.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_52d76ec1",
+          "title": "Read Chapter 5: Gene Regulation",
+          "description": "Detailed study of operons, enhancers, and epigenetics.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f1eea998",
+          "title": "Study Mendelian genetics",
+          "description": "Fundamental laws of inheritance and genetic crosses.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_13978025",
+          "title": "Read Chapter 6: Mendelian Genetics",
+          "description": "Comprehensive coverage of dominant/recessive traits and linkage.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4bfb7a90",
+          "title": "Practice Punnett squares",
+          "description": "Solve monohybrid and dihybrid cross problems.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_24683b22",
+          "title": "Learn about linkage and recombination",
+          "description": "Understanding crossover frequency and genetic maps.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_7420ebdb",
+          "title": "Read Chapter 7: Linkage",
+          "description": "Detailed study of linkage analysis and map units.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_42e99cd8",
+          "title": "Study meiosis and crossing over",
+          "description": "Stages of meiosis and genetic variation mechanisms.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_59bf116b",
+          "title": "Read Chapter 8: Meiosis",
+          "description": "In‑depth look at homologous chromosome segregation.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c32b1375",
+          "title": "Explore population genetics basics",
+          "description": "Concepts of allele frequencies and genetic drift.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4ff9ca2a",
+          "title": "Read Chapter 9: Population Genetics",
+          "description": "Hardy‑Weinberg equilibrium and selection models.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_86aa94c3",
+          "title": "Learn about Hardy‑Weinberg equilibrium",
+          "description": "Derivation and application of the equilibrium equation.",
+          "estimated_hours": 1.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9f05e5da",
+          "title": "Practice Hardy‑Weinberg calculations",
+          "description": "Solve problems involving allele and genotype frequencies.",
+          "estimated_hours": 1.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_64dbe355",
+          "title": "Study molecular genetics techniques",
+          "description": "PCR, gel electrophoresis, sequencing, and cloning.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9aeab265",
+          "title": "Read Chapter 10: Molecular Genetics",
+          "description": "Hands‑on methods used in modern genetics research.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_331e045d",
+          "title": "Review genetic engineering and CRISPR",
+          "description": "Mechanisms and ethical considerations of genome editing.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d2f278bb",
+          "title": "Read Chapter 11: Genetic Engineering",
+          "description": "Applications of recombinant DNA technology.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3127ddbb",
+          "title": "Prepare summary notes for each chapter",
+          "description": "Condense key points into concise study guides.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_523a3f69",
+          "title": "Take practice quiz on genetics",
+          "description": "Self‑assessment covering all major topics.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_695811e9",
+          "title": "Review quiz answers and clarify doubts",
+          "description": "Analyze mistakes and reinforce understanding.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-05": [
+          {
+            "task_id": "task_827663f9",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_8ddbd698",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_8ddbd698",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_af0de190",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_843aec12",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_843aec12",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_6534ac6d",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_96ef03ab",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_44747589",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_44747589",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_ac75dee3",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_e93b33a8",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_e93b33a8",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_3fdd8071",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_3fdd8071",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_577c5b31",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_52d76ec1",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_52d76ec1",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_f1eea998",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_f1eea998",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_13978025",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_4bfb7a90",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_4bfb7a90",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_24683b22",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_7420ebdb",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_42e99cd8",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_42e99cd8",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_59bf116b",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_c32b1375",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_4ff9ca2a",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_4ff9ca2a",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_86aa94c3",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_9f05e5da",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_9f05e5da",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_64dbe355",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_9aeab265",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_331e045d",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-21": [
+          {
+            "task_id": "task_331e045d",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_d2f278bb",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_3127ddbb",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-23": [
+          {
+            "task_id": "task_523a3f69",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_695811e9",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-24": [
+          {
+            "task_id": "task_695811e9",
             "hours": 1.0
           }
         ]
