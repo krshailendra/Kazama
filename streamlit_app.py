@@ -11,6 +11,7 @@ default_status_file = os.path.join(DATA_DIR, "status.json")
 import time
 from dotenv import load_dotenv
 from twilio.rest import Client
+import threading
 
 load_dotenv()
 TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
@@ -43,6 +44,22 @@ def get_latest_whatsapp_status():
         return updates[-1] if updates else None
     except Exception:
         return None
+
+# Real-time WhatsApp status polling interval (seconds)
+WHATSAPP_POLL_INTERVAL = 4  # seconds
+
+def poll_and_update_whatsapp_status(force=False):
+    last = st.session_state.get("_last_whatsapp_update", None)
+    wupdate = get_latest_whatsapp_status()
+    # Detect new event (compare timestamp+action for stability)
+    if wupdate:
+        current = (wupdate.get("timestamp"), wupdate.get("action"))
+        if force or current != last:
+            st.session_state["_last_whatsapp_update"] = current
+            st.session_state["whatsapp_status_msg"] = wupdate
+    return wupdate
+
+poll_and_update_whatsapp_status(force=True)  # force on load, then in UI loop we poll
 
 # IMPORTANT: set_page_config must be the very first Streamlit command
 st.set_page_config(page_title="AI Goal Planner", layout="wide", initial_sidebar_state="expanded")
@@ -527,3 +544,41 @@ else:
 # 5. Paste provided public ngrok URL to Twilio sandbox WhatsApp config for webhook.
 # 6. Join sandbox by sending code to +14155238886 from your WhatsApp. 
 # 7. Trigger plan generate — app will message you; replies will update app live!
+
+# --- WhatsApp webhook connect indicator and banner ---
+st.markdown("<hr />", unsafe_allow_html=True)
+with st.sidebar:
+    wstatus = get_latest_whatsapp_status()
+    if wstatus:
+        st.markdown(':green[WhatsApp connected: Status webhook OK] ✅')
+    else:
+        st.markdown(':orange[WhatsApp not connected: webhook down?]')
+    st.caption('This checks if the Flask webhook is reachable. Launch with:')
+    st.code('python webhook.py')
+    st.caption('Tunnel webhook to Twilio with:')
+    st.code('ngrok http 5005 --host-header=rewrite')
+    st.caption('Paste your public ngrok URL into the Twilio sandbox config for WhatsApp webhooks.')
+
+# ---- Top-of-dashboard WhatsApp status indicator (real-time update) ----
+last_action = st.session_state.get("whatsapp_status_msg", None)
+if last_action:
+    banner_msg = {
+        "done": "✅ Last WhatsApp: Task marked as DONE!",
+        "remind_later": "⏰ Last WhatsApp: Reminder set.",
+        "other": "💬 Last WhatsApp action received."
+    }
+    k = last_action.get("action", "other")
+    txt = banner_msg.get(k, f"WhatsApp action: {k}")
+    st.markdown(f"<div style='background:#293356;padding:9px 20px;border-radius:8px;margin-bottom:14px;font-weight:600;color:#8be9fd;box-shadow:0 1px 8px #1d1f2a50;'>{txt}</div>", unsafe_allow_html=True)
+
+# Kick off polling thread if not running
+if "_whatsapp_poll_thread" not in st.session_state:
+    def rerun_poll():
+        import time
+        while True:
+            poll_and_update_whatsapp_status()
+            time.sleep(WHATSAPP_POLL_INTERVAL)
+            st.rerun()
+    t = threading.Thread(target=rerun_poll, daemon=True)
+    t.start()
+    st.session_state["_whatsapp_poll_thread"] = True

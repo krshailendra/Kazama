@@ -5973,6 +5973,2311 @@
           }
         ]
       }
+    },
+    {
+      "id": "goal_9662bc79",
+      "title": "plan for learning ui/ux",
+      "description": "plan for learning ui/ux",
+      "created_at": "2025-11-04",
+      "deadline": "2026-02-02",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_706ab21b",
+          "title": "Introduction to UI/UX",
+          "description": "Overview of UI/UX history, roles, and industry landscape.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8c176593",
+          "title": "Design Thinking Process",
+          "description": "Deep dive into empathize, define, ideate, prototype, and test stages.",
+          "estimated_hours": 3.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d2b7bee9",
+          "title": "User Research Methods",
+          "description": "Learn interviews, surveys, personas, and user journey mapping.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1de2b231",
+          "title": "Information Architecture Basics",
+          "description": "Card sorting, site maps, and navigation design fundamentals.",
+          "estimated_hours": 2.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_bc59a3fd",
+          "title": "Wireframing Fundamentals",
+          "description": "Create low‑fidelity sketches and layout structures.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3c017925",
+          "title": "Prototyping Tools: Figma Basics",
+          "description": "Set up projects, components, and interactive prototypes.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_184926d5",
+          "title": "Visual Design Principles",
+          "description": "Color theory, typography, spacing, and visual hierarchy.",
+          "estimated_hours": 3.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_18036b15",
+          "title": "Interaction Design Basics",
+          "description": "Affordances, feedback, micro‑interactions, and motion design.",
+          "estimated_hours": 2.5,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_85fae322",
+          "title": "Accessibility Guidelines",
+          "description": "WCAG basics, contrast ratios, keyboard navigation, and inclusive design.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_33af20c3",
+          "title": "Usability Testing",
+          "description": "Planning, conducting, and analyzing usability tests.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2ca5d4d6",
+          "title": "Responsive Design",
+          "description": "Breakpoints, fluid grids, and adaptive layouts.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8653e3f0",
+          "title": "Design Systems",
+          "description": "Creating component libraries, style guides, and design tokens.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_60bb4823",
+          "title": "UI Pattern Library",
+          "description": "Cataloging common UI patterns and best practices.",
+          "estimated_hours": 2.5,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_59c86ebc",
+          "title": "Mobile UI Design",
+          "description": "Designing for touch, gestures, and small screens.",
+          "estimated_hours": 3.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ff5fa9dc",
+          "title": "Desktop UI Design",
+          "description": "Designing for larger screens, mouse interactions, and multi‑window workflows.",
+          "estimated_hours": 2.5,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_bfc72324",
+          "title": "Design Critique",
+          "description": "Peer review techniques, giving and receiving feedback.",
+          "estimated_hours": 2.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1b7cb6c3",
+          "title": "Portfolio Building",
+          "description": "Structuring case studies, showcasing process, and presenting results.",
+          "estimated_hours": 3.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_0ccc39f6",
+          "title": "Design Tools Mastery",
+          "description": "Advanced Figma features: plugins, version control, and collaboration.",
+          "estimated_hours": 3.0,
+          "priority": 4,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f0fa0c9b",
+          "title": "Design Project: End‑to‑End Case Study",
+          "description": "Apply all concepts to a complete UI/UX project from research to prototype.",
+          "estimated_hours": 4.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f91f4894",
+          "title": "Review & Reflection",
+          "description": "Summarize lessons learned, identify gaps, and plan next steps.",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-04": [
+          {
+            "task_id": "task_706ab21b",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_8c176593",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-05": [
+          {
+            "task_id": "task_8c176593",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_d2b7bee9",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_d2b7bee9",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_1de2b231",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_1de2b231",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_bc59a3fd",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_bc59a3fd",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_3c017925",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_3c017925",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_184926d5",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_184926d5",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_18036b15",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_18036b15",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_85fae322",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_33af20c3",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_2ca5d4d6",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_8653e3f0",
+            "hours": 3.0
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_60bb4823",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_59c86ebc",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_59c86ebc",
+            "hours": 2.5
+          },
+          {
+            "task_id": "task_ff5fa9dc",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_ff5fa9dc",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_bfc72324",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_bfc72324",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_1b7cb6c3",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_1b7cb6c3",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_0ccc39f6",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_0ccc39f6",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_f0fa0c9b",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-21": [
+          {
+            "task_id": "task_f0fa0c9b",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_f91f4894",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_f91f4894",
+            "hours": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "goal_18dacf8f",
+      "title": "i want to learn arduino",
+      "description": "i want to learn arduino",
+      "created_at": "2025-11-04",
+      "deadline": "2026-02-02",
+      "mode": "autoplan",
+      "tasks": [
+        {
+          "id": "task_64de091c",
+          "title": "Arduino Ecosystem Overview",
+          "description": "Learn about Arduino boards, shields, and the community resources.",
+          "estimated_hours": 1.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_745e0a1b",
+          "title": "Set Up Arduino IDE",
+          "description": "Install the IDE, drivers, and configure board settings.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9ca2ae0a",
+          "title": "Basic Electronics Concepts",
+          "description": "Understand voltage, current, resistance, and Ohm's law.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_517ae01c",
+          "title": "Digital Input Basics",
+          "description": "Read button states and understand pull-up/pull-down resistors.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e42bf673",
+          "title": "Digital Output Basics",
+          "description": "Control LEDs and other devices using digital pins.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_cc00e5a0",
+          "title": "Analog Input Basics",
+          "description": "Read sensor values with the analogRead() function.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8c5cd4f2",
+          "title": "Analog Output (PWM) Basics",
+          "description": "Use analogWrite() to control brightness and motor speed.",
+          "estimated_hours": 1.5,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3add44d7",
+          "title": "Serial Communication Basics",
+          "description": "Send and receive data between Arduino and PC.",
+          "estimated_hours": 2.0,
+          "priority": 1,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_7a148d73",
+          "title": "Blinking LED Circuit",
+          "description": "Build a simple circuit to blink an LED using code.",
+          "estimated_hours": 1.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_07e792c3",
+          "title": "Button-Controlled LED",
+          "description": "Create a circuit where a button toggles an LED.",
+          "estimated_hours": 1.5,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4d9283ae",
+          "title": "Temperature Sensor Readout",
+          "description": "Read a TMP36 sensor and display temperature on Serial Monitor.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_6958ecd9",
+          "title": "Using Libraries (LiquidCrystal)",
+          "description": "Learn to include and use external libraries for LCD displays.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_575de977",
+          "title": "LCD Display Project",
+          "description": "Show sensor data on a 16x2 LCD screen.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e732225e",
+          "title": "Ultrasonic Sensor Project",
+          "description": "Measure distance with an HC-SR04 sensor and display it.",
+          "estimated_hours": 2.0,
+          "priority": 2,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_0928d58d",
+          "title": "Motor Control Basics",
+          "description": "Control a DC motor using a transistor and a flyback diode.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ac817ec1",
+          "title": "Servo Motor Project",
+          "description": "Move a servo to specific angles using PWM signals.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_38237602",
+          "title": "Stepper Motor Project",
+          "description": "Drive a stepper motor with a driver shield for precise positioning.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_775f8ffc",
+          "title": "Bluetooth Communication",
+          "description": "Send data wirelessly using an HC-05 module.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_77112e61",
+          "title": "Power Management & Battery Projects",
+          "description": "Design circuits that run on batteries and manage power consumption.",
+          "estimated_hours": 2.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a4efc210",
+          "title": "Final Home Automation Project",
+          "description": "Integrate sensors, actuators, and wireless modules into a small automation system.",
+          "estimated_hours": 3.0,
+          "priority": 3,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-04": [
+          {
+            "task_id": "task_64de091c",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_745e0a1b",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_9ca2ae0a",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-05": [
+          {
+            "task_id": "task_9ca2ae0a",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_517ae01c",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_e42bf673",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_cc00e5a0",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_cc00e5a0",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_8c5cd4f2",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_3add44d7",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_3add44d7",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_7a148d73",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_07e792c3",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_07e792c3",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_4d9283ae",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_6958ecd9",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_6958ecd9",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_575de977",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_575de977",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_e732225e",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_0928d58d",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_0928d58d",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_ac817ec1",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_ac817ec1",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_38237602",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_775f8ffc",
+            "hours": 0.5
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_775f8ffc",
+            "hours": 1.5
+          },
+          {
+            "task_id": "task_77112e61",
+            "hours": 1.5
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_77112e61",
+            "hours": 0.5
+          },
+          {
+            "task_id": "task_a4efc210",
+            "hours": 2.5
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_a4efc210",
+            "hours": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "goal_d5e622b0",
+      "title": "Imported: https://docs.google.com/spreadsheets/d/1VLWizZ45EpnN3_IkQi6O7Y0LueUeWnwti7-uXEzcMso/edit?usp=drivesd",
+      "description": "https://docs.google.com/spreadsheets/d/1VLWizZ45EpnN3_IkQi6O7Y0LueUeWnwti7-uXEzcMso/edit?usp=drivesdk",
+      "created_at": "2025-11-04",
+      "deadline": "2026-02-02",
+      "mode": "import",
+      "tasks": [
+        {
+          "id": "task_61fa62c3",
+          "title": "1",
+          "description": "NAME",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d957de05",
+          "title": "2",
+          "description": "Vivek",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2973ec04",
+          "title": "3",
+          "description": "VEDHANSH",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_fe57b81c",
+          "title": "4",
+          "description": "gunjan",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_419c87ee",
+          "title": "5",
+          "description": "Yash",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_cb12ae1f",
+          "title": "6",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ae778567",
+          "title": "7",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_bc700ef9",
+          "title": "8",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2fe17a33",
+          "title": "9",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8eb1b295",
+          "title": "10",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c9f1a159",
+          "title": "11",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_42f37414",
+          "title": "12",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_34f13378",
+          "title": "13",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_5aab19cf",
+          "title": "14",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_5c28d57a",
+          "title": "15",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_177e877f",
+          "title": "16",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_69e260a6",
+          "title": "17",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e415f97b",
+          "title": "18",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1137e3d6",
+          "title": "19",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_239d4200",
+          "title": "20",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_2ca4ffc7",
+          "title": "21",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d7d39f4b",
+          "title": "22",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e3e718e9",
+          "title": "23",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ed3d2223",
+          "title": "24",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f1cea0e1",
+          "title": "25",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4c087db4",
+          "title": "26",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a3956354",
+          "title": "27",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_18d70d63",
+          "title": "28",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_dd10972f",
+          "title": "29",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3e4f3ed5",
+          "title": "30",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a49b1141",
+          "title": "31",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_091b4ff9",
+          "title": "32",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_372337d1",
+          "title": "33",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_59e3ce9d",
+          "title": "34",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_7211f8d0",
+          "title": "35",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1589e964",
+          "title": "36",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c7578cc3",
+          "title": "37",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_55c9141f",
+          "title": "38",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_1e90176a",
+          "title": "39",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_16d16302",
+          "title": "40",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e7c242b8",
+          "title": "41",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d76640b7",
+          "title": "42",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8252b646",
+          "title": "43",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_929bca91",
+          "title": "44",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e79d2274",
+          "title": "45",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ac89652b",
+          "title": "46",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8a5fb939",
+          "title": "47",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_26b39602",
+          "title": "48",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_38cf2e55",
+          "title": "49",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_91323d92",
+          "title": "50",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_8e77c767",
+          "title": "51",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_593ab269",
+          "title": "52",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_5f51198b",
+          "title": "53",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_fa735401",
+          "title": "54",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_79d1a24f",
+          "title": "55",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_fa955e3b",
+          "title": "56",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_031b4e1a",
+          "title": "57",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f7598d9b",
+          "title": "58",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c2b4444a",
+          "title": "59",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_77a74afa",
+          "title": "60",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_07c9209a",
+          "title": "61",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_25fc2a8f",
+          "title": "62",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_61a03b6e",
+          "title": "63",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d2170256",
+          "title": "64",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3a6595e0",
+          "title": "65",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_efd198f9",
+          "title": "66",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_f6acf7eb",
+          "title": "67",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_413d8504",
+          "title": "68",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_75aea9d6",
+          "title": "69",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_55a6eba3",
+          "title": "70",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_7f6be275",
+          "title": "71",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_d3376481",
+          "title": "72",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3e9f20a1",
+          "title": "73",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_e8ff09eb",
+          "title": "74",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c945587f",
+          "title": "75",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_725c5a3d",
+          "title": "76",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3aa88068",
+          "title": "77",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ebc9b896",
+          "title": "78",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a910e20b",
+          "title": "79",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_ebc8407c",
+          "title": "80",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_a61ef08e",
+          "title": "81",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_c0270bbd",
+          "title": "82",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_b3a59867",
+          "title": "83",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_03526b9d",
+          "title": "84",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_66cc00bf",
+          "title": "85",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_53dc6df1",
+          "title": "86",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4aa726d7",
+          "title": "87",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3ddd69bc",
+          "title": "88",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_89a78155",
+          "title": "89",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_307fe9d7",
+          "title": "90",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_99b5f40e",
+          "title": "91",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_4383e311",
+          "title": "92",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_185d86dd",
+          "title": "93",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_91ae3382",
+          "title": "94",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_60cb8482",
+          "title": "95",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_7f882a08",
+          "title": "96",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_59d92463",
+          "title": "97",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_3aa31428",
+          "title": "98",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_784b64e4",
+          "title": "99",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_9a55d481",
+          "title": "100",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        },
+        {
+          "id": "task_92980134",
+          "title": "Quotes are not sourced from all markets and may be delayed by up to 20 minutes. Information is provided 'as is' and solely for informational purposes, not for trading purposes or advice.Disclaimer",
+          "description": "",
+          "estimated_hours": 2.0,
+          "priority": 5,
+          "status": "planned",
+          "hours_done": 0.0
+        }
+      ],
+      "assignments": {
+        "2025-11-04": [
+          {
+            "task_id": "task_61fa62c3",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_d957de05",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-05": [
+          {
+            "task_id": "task_d957de05",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_2973ec04",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-06": [
+          {
+            "task_id": "task_fe57b81c",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_419c87ee",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-07": [
+          {
+            "task_id": "task_419c87ee",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_cb12ae1f",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-08": [
+          {
+            "task_id": "task_ae778567",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_bc700ef9",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-09": [
+          {
+            "task_id": "task_bc700ef9",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_2fe17a33",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-10": [
+          {
+            "task_id": "task_8eb1b295",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_c9f1a159",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-11": [
+          {
+            "task_id": "task_c9f1a159",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_42f37414",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-12": [
+          {
+            "task_id": "task_34f13378",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_5aab19cf",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-13": [
+          {
+            "task_id": "task_5aab19cf",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_5c28d57a",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-14": [
+          {
+            "task_id": "task_177e877f",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_69e260a6",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-15": [
+          {
+            "task_id": "task_69e260a6",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_e415f97b",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-16": [
+          {
+            "task_id": "task_1137e3d6",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_239d4200",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-17": [
+          {
+            "task_id": "task_239d4200",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_2ca4ffc7",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-18": [
+          {
+            "task_id": "task_d7d39f4b",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_e3e718e9",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-19": [
+          {
+            "task_id": "task_e3e718e9",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_ed3d2223",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-20": [
+          {
+            "task_id": "task_f1cea0e1",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_4c087db4",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-21": [
+          {
+            "task_id": "task_4c087db4",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_a3956354",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-22": [
+          {
+            "task_id": "task_18d70d63",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_dd10972f",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-23": [
+          {
+            "task_id": "task_dd10972f",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_3e4f3ed5",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-24": [
+          {
+            "task_id": "task_a49b1141",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_091b4ff9",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-25": [
+          {
+            "task_id": "task_091b4ff9",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_372337d1",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-26": [
+          {
+            "task_id": "task_59e3ce9d",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_7211f8d0",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-27": [
+          {
+            "task_id": "task_7211f8d0",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_1589e964",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-28": [
+          {
+            "task_id": "task_c7578cc3",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_55c9141f",
+            "hours": 1.0
+          }
+        ],
+        "2025-11-29": [
+          {
+            "task_id": "task_55c9141f",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_1e90176a",
+            "hours": 2.0
+          }
+        ],
+        "2025-11-30": [
+          {
+            "task_id": "task_16d16302",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_e7c242b8",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-01": [
+          {
+            "task_id": "task_e7c242b8",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_d76640b7",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-02": [
+          {
+            "task_id": "task_8252b646",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_929bca91",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-03": [
+          {
+            "task_id": "task_929bca91",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_e79d2274",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-04": [
+          {
+            "task_id": "task_ac89652b",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_8a5fb939",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-05": [
+          {
+            "task_id": "task_8a5fb939",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_26b39602",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-06": [
+          {
+            "task_id": "task_38cf2e55",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_91323d92",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-07": [
+          {
+            "task_id": "task_91323d92",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_8e77c767",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-08": [
+          {
+            "task_id": "task_593ab269",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_5f51198b",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-09": [
+          {
+            "task_id": "task_5f51198b",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_fa735401",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-10": [
+          {
+            "task_id": "task_79d1a24f",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_fa955e3b",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-11": [
+          {
+            "task_id": "task_fa955e3b",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_031b4e1a",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-12": [
+          {
+            "task_id": "task_f7598d9b",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_c2b4444a",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-13": [
+          {
+            "task_id": "task_c2b4444a",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_77a74afa",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-14": [
+          {
+            "task_id": "task_07c9209a",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_25fc2a8f",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-15": [
+          {
+            "task_id": "task_25fc2a8f",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_61a03b6e",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-16": [
+          {
+            "task_id": "task_d2170256",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_3a6595e0",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-17": [
+          {
+            "task_id": "task_3a6595e0",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_efd198f9",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-18": [
+          {
+            "task_id": "task_f6acf7eb",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_413d8504",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-19": [
+          {
+            "task_id": "task_413d8504",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_75aea9d6",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-20": [
+          {
+            "task_id": "task_55a6eba3",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_7f6be275",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-21": [
+          {
+            "task_id": "task_7f6be275",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_d3376481",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-22": [
+          {
+            "task_id": "task_3e9f20a1",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_e8ff09eb",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-23": [
+          {
+            "task_id": "task_e8ff09eb",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_c945587f",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-24": [
+          {
+            "task_id": "task_725c5a3d",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_3aa88068",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-25": [
+          {
+            "task_id": "task_3aa88068",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_ebc9b896",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-26": [
+          {
+            "task_id": "task_a910e20b",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_ebc8407c",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-27": [
+          {
+            "task_id": "task_ebc8407c",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_a61ef08e",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-28": [
+          {
+            "task_id": "task_c0270bbd",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_b3a59867",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-29": [
+          {
+            "task_id": "task_b3a59867",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_03526b9d",
+            "hours": 2.0
+          }
+        ],
+        "2025-12-30": [
+          {
+            "task_id": "task_66cc00bf",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_53dc6df1",
+            "hours": 1.0
+          }
+        ],
+        "2025-12-31": [
+          {
+            "task_id": "task_53dc6df1",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_4aa726d7",
+            "hours": 2.0
+          }
+        ],
+        "2026-01-01": [
+          {
+            "task_id": "task_3ddd69bc",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_89a78155",
+            "hours": 1.0
+          }
+        ],
+        "2026-01-02": [
+          {
+            "task_id": "task_89a78155",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_307fe9d7",
+            "hours": 2.0
+          }
+        ],
+        "2026-01-03": [
+          {
+            "task_id": "task_99b5f40e",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_4383e311",
+            "hours": 1.0
+          }
+        ],
+        "2026-01-04": [
+          {
+            "task_id": "task_4383e311",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_185d86dd",
+            "hours": 2.0
+          }
+        ],
+        "2026-01-05": [
+          {
+            "task_id": "task_91ae3382",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_60cb8482",
+            "hours": 1.0
+          }
+        ],
+        "2026-01-06": [
+          {
+            "task_id": "task_60cb8482",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_7f882a08",
+            "hours": 2.0
+          }
+        ],
+        "2026-01-07": [
+          {
+            "task_id": "task_59d92463",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_3aa31428",
+            "hours": 1.0
+          }
+        ],
+        "2026-01-08": [
+          {
+            "task_id": "task_3aa31428",
+            "hours": 1.0
+          },
+          {
+            "task_id": "task_784b64e4",
+            "hours": 2.0
+          }
+        ],
+        "2026-01-09": [
+          {
+            "task_id": "task_9a55d481",
+            "hours": 2.0
+          },
+          {
+            "task_id": "task_92980134",
+            "hours": 1.0
+          }
+        ],
+        "2026-01-10": [
+          {
+            "task_id": "task_92980134",
+            "hours": 1.0
+          }
+        ]
+      }
     }
   ]
 }
