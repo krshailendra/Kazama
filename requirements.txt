@@ -12,3 +12,7 @@ streamlit
 pandas
 python-dotenv
 beautifulsoup4
+twilio
+flask
+flask-cors
+grok

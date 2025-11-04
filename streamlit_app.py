@@ -5,6 +5,61 @@ import json
 import os
 import uuid
 from typing import List, Dict, Any
+import requests # for status polling
+DATA_DIR = "data"
+default_status_file = os.path.join(DATA_DIR, "status.json")
+import time
+from dotenv import load_dotenv
+from twilio.rest import Client
+import threading
+
+load_dotenv()
+TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
+TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
+TWILIO_WHATSAPP_NUMBER = os.getenv("TWILIO_WHATSAPP_NUMBER", "whatsapp:+14155238886")
+TWILIO_WHATSAPP_DEST = os.getenv("TWILIO_WHATSAPP_DEST", "")  # user phone w/wa: must join sandbox
+
+# Minimal send WhatsApp helper (only runs if env/config is set)
+def send_whatsapp_reminder(plan_summary):
+    if not (TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN and TWILIO_WHATSAPP_DEST):
+        return False, "Twilio config missing"
+    try:
+        client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+        body = f"🧭 New Plan Generated!\n{plan_summary}\n\nReply with 'Mark as Done' or 'Remind me Later'."
+        msg = client.messages.create(
+            from_=TWILIO_WHATSAPP_NUMBER,
+            to=TWILIO_WHATSAPP_DEST,
+            body=body
+        )
+        return True, "WhatsApp message sent"
+    except Exception as e:
+        return False, str(e)
+
+# Status polling (for WhatsApp connect indic)
+def get_latest_whatsapp_status():
+    try:
+        resp = requests.get("http://localhost:5005/status", timeout=1.5)
+        d = resp.json()
+        updates = d.get("updates", [])
+        return updates[-1] if updates else None
+    except Exception:
+        return None
+
+# Real-time WhatsApp status polling interval (seconds)
+WHATSAPP_POLL_INTERVAL = 4  # seconds
+
+def poll_and_update_whatsapp_status(force=False):
+    last = st.session_state.get("_last_whatsapp_update", None)
+    wupdate = get_latest_whatsapp_status()
+    # Detect new event (compare timestamp+action for stability)
+    if wupdate:
+        current = (wupdate.get("timestamp"), wupdate.get("action"))
+        if force or current != last:
+            st.session_state["_last_whatsapp_update"] = current
+            st.session_state["whatsapp_status_msg"] = wupdate
+    return wupdate
+
+poll_and_update_whatsapp_status(force=True)  # force on load, then in UI loop we poll
 
 # IMPORTANT: set_page_config must be the very first Streamlit command
 st.set_page_config(page_title="AI Goal Planner", layout="wide", initial_sidebar_state="expanded")
@@ -338,6 +393,13 @@ if mode == "Autoplan (LLM)" and generate_btn:
                 st.success(f"Created goal: {g['title']} with {len(g['tasks'])} tasks. Deadline approx {g['deadline']}")
                 data = load_data()
                 goals = data.get("goals", [])
+                # WhatsApp integration: send reminder with plan
+                plan_txt = f"Goal: {g['title']} (Deadline {g['deadline']})\n#Tasks: {len(g['tasks'])}"
+                ok, msg = send_whatsapp_reminder(plan_txt)
+                if ok:
+                    st.toast(f"WhatsApp reminder sent.")
+                else:
+                    st.warning(f"(WhatsApp send failed — {msg})")
             except Exception as e:
                 st.error(f"Autoplan failed: {e}")
 
@@ -451,6 +513,15 @@ else:
                         st.success(f"Mock WhatsApp message 'Reminder' sent to {phone} (demo).")
             st.markdown('</div>', unsafe_allow_html=True)
 
+        # Display last WhatsApp-triggered action (status.json tail)
+        wupdate = get_latest_whatsapp_status()
+        if wupdate:
+            st.markdown('<div class="pill">Last WhatsApp: {}</div>'.format(wupdate.get("action","-")), unsafe_allow_html=True)
+            st.markdown(f"<span style='font-size:0.98em;'>From: {wupdate.get('from','-')}, Msg: {wupdate.get('msg','')} @ {wupdate.get('timestamp','-')}</span>", unsafe_allow_html=True)
+        else:
+            st.markdown('<div class="muted">No WhatsApp callback received yet.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="muted">(Send \"Mark as Done\" or \"Remind me later\" reply in WhatsApp to test realtime demo.)</div>', unsafe_allow_html=True)
+
         # st.markdown("### Next 7 days summary")
         # today = date.today()
         # for i in range(0, 7):
@@ -464,3 +535,50 @@ else:
 # st.markdown("---")
 # st.markdown("<div class='muted'>Local JSON storage: <code>data/tasks.json</code> — back up that file if you need to move the prototype.</div>", unsafe_allow_html=True)
 # st.markdown("<div class='muted'>Next steps: (1) Hook WhatsApp to Twilio/Meta API on backend; (2) Create a React + Tailwind mobile-first UI for production; (3) Add feature flags to toggle broken/unimplemented UI pieces.</div>", unsafe_allow_html=True)
+
+# ---- SETUP INSTRUCTIONS (in code) ----
+# 1. Run: pip install -r requirements.txt
+# 2. Setup .env as described.
+# 3. Run webhook.py locally, exposing Flask app for Twilio webhook.
+# 4. Start ngrok: ngrok http 5005 --host-header=rewrite
+# 5. Paste provided public ngrok URL to Twilio sandbox WhatsApp config for webhook.
+# 6. Join sandbox by sending code to +14155238886 from your WhatsApp. 
+# 7. Trigger plan generate — app will message you; replies will update app live!
+
+# --- WhatsApp webhook connect indicator and banner ---
+st.markdown("<hr />", unsafe_allow_html=True)
+with st.sidebar:
+    wstatus = get_latest_whatsapp_status()
+    if wstatus:
+        st.markdown(':green[WhatsApp connected: Status webhook OK] ✅')
+    else:
+        st.markdown(':orange[WhatsApp not connected: webhook down?]')
+    st.caption('This checks if the Flask webhook is reachable. Launch with:')
+    st.code('python webhook.py')
+    st.caption('Tunnel webhook to Twilio with:')
+    st.code('ngrok http 5005 --host-header=rewrite')
+    st.caption('Paste your public ngrok URL into the Twilio sandbox config for WhatsApp webhooks.')
+
+# ---- Top-of-dashboard WhatsApp status indicator (real-time update) ----
+last_action = st.session_state.get("whatsapp_status_msg", None)
+if last_action:
+    banner_msg = {
+        "done": "✅ Last WhatsApp: Task marked as DONE!",
+        "remind_later": "⏰ Last WhatsApp: Reminder set.",
+        "other": "💬 Last WhatsApp action received."
+    }
+    k = last_action.get("action", "other")
+    txt = banner_msg.get(k, f"WhatsApp action: {k}")
+    st.markdown(f"<div style='background:#293356;padding:9px 20px;border-radius:8px;margin-bottom:14px;font-weight:600;color:#8be9fd;box-shadow:0 1px 8px #1d1f2a50;'>{txt}</div>", unsafe_allow_html=True)
+
+# Kick off polling thread if not running
+if "_whatsapp_poll_thread" not in st.session_state:
+    def rerun_poll():
+        import time
+        while True:
+            poll_and_update_whatsapp_status()
+            time.sleep(WHATSAPP_POLL_INTERVAL)
+            st.rerun()
+    t = threading.Thread(target=rerun_poll, daemon=True)
+    t.start()
+    st.session_state["_whatsapp_poll_thread"] = True
